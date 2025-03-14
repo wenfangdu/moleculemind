@@ -1,0 +1,9 @@
+{
+  "name": "molecule-frontend",
+  "scripts": {
+    "start": "npm start -w mos-frontend"
+  },
+  "workspaces": [
+    "apps/mos-frontend"
+  ]
+}

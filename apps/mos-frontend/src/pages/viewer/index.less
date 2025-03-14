@@ -1,0 +1,76 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+
+    .entryList {
+      // width: 100%;
+      // height: 45%;
+      // flex-grow: 0;
+      // flex-shrink: 0;
+      // border: 1px solid #eee;
+      // padding: 12px;
+      // overflow-y: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .structureList {
+      // margin-top: 12px;
+      // width: 100%;
+      // flex-grow: 1;
+      // border: 1px solid #eee;
+      // padding: 12px;
+      // overflow-y: auto;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+
+    .workspace {
+      // width: 100%;
+      // height: 45%;
+      // flex-grow: 0;
+      // flex-shrink: 0;
+      // border: 1px solid #eee;
+      // padding: 12px;
+      position: relative;
+    }
+
+    .sequenceView {
+      // margin-top: 12px;
+      // width: 100%;
+      // flex-grow: 1;
+      // border: 1px solid #eee;
+      // padding: 12px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+}
+
+.taskModal {
+  width: 1200px !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexGrow1 {
+  flex-grow: 1;
+}
+
+.flexShrink0 {
+  flex-shrink: 0;
+}
+
+.dragging {
+  filter: blur(5px);
+}
+
+.resizeableContainer {
+  overflow: hidden;
+  flex-direction: column;
+  width: 100%;
+}

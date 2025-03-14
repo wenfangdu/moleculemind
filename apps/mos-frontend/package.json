@@ -1,0 +1,38 @@
+{
+  "name": "mos-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "docker-build": "docker build -t mos-frontend-linux .",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "@ant-design/pro-components": "^2.7.10",
+    "@umijs/max": "^4.2.10",
+    "ahooks": "^3.8.0",
+    "antd": "^5.17.4",
+    "classnames": "^2.5.1",
+    "lodash": "^4.17.21",
+    "molstar": "^4.3.0",
+    "nanoid": "^5.0.7",
+    "react-resizable-layout": "^0.7.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@types/uuid": "^10.0.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}
